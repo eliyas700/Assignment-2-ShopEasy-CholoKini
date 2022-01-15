@@ -1,0 +1,61 @@
+/* =-=-=-=-=-=-=-=-=-=-=-
+                        Common Styles
+                    -=-=-=-=-=-=-=-=-=-=-=-=*/
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+/* =-=-=-=-=-=-=-=-=-=-=-
+                        Header Section
+                    -=-=-=-=-=-=-=-=-=-=-=-=*/
+.header-area {
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  margin-top: 40px;
+}
+.nav-logo {
+  width: 30%;
+}
+.nav-items {
+  width: 70%;
+}
+.nav-items ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.nav-items ul li {
+  margin-right: 20px;
+}
+.nav-items ul li a {
+  padding: 12px 15px;
+  font-size: 20px;
+  color: #57606f;
+  font-weight: 600;
+  transition: color 0.5s ease-in-out;
+}
+.nav-items ul li a i {
+  font-size: 24px;
+}
+.nav-items ul li a:hover {
+  color: black;
+}
