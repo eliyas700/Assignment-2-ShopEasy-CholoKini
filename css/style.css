@@ -117,9 +117,33 @@ EasyShop Section
   font-size: 48px;
   font-weight: 700;
 }
-#shopeasy {
-  color: #d95a71;
+@keyframes eliyas {
+  0% {
+    color: #d95a71;
+  }
+  25% {
+    color: #ca3f59;
+  }
+  50% {
+    color: #c22c48;
+  }
+  75% {
+    color: #a3132d;
+  }
+  100% {
+    color: #ca3f59;
+  }
 }
+#shopeasy {
+  box-sizing: border-box;
+  overflow: hidden !important;
+  display: block;
+  color: #d95a71;
+  text-shadow: 4px 4px 6px #57606f;
+  animation: eliyas 2s ease-in infinite alternate;
+  animation-play-state: running;
+}
+
 .shop-content p {
   font-size: 16px;
   color: #3e3e3e;
