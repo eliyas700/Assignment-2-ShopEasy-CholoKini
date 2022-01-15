@@ -217,3 +217,29 @@ a {
 .popular-more a:hover {
   color: rgba(255, 71, 87, 1);
 }
+/* =-=-=-=-=-=-=-=-=-=-=-
+                       Community Section
+                    -=-=-=-=-=-=-=-=-=-=-=-=*/
+.community {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 0;
+}
+.community-img {
+  width: 30%;
+}
+.community-content {
+  width: 45%;
+  padding-right: 150px;
+}
+.community-content h2 {
+  margin-top: 0;
+  font-size: 38px;
+}
+.community-content p {
+  font-size: 16px;
+  color: #3e3e3e;
+}
+.community-content > .uni-button {
+  margin-top: 0;
+}
