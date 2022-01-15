@@ -49,8 +49,7 @@ a {
 /* =-=-=-=-=-=-=-=-=-=-=-
                         Header Section
                     -=-=-=-=-=-=-=-=-=-=-=-=*/
-.header-area {
-}
+
 .nav-bar {
   display: flex;
   justify-content: space-between;
@@ -127,3 +126,13 @@ a {
 /* =-=-=-=-=-=-=-=-=-=-=-
                         Brand Section
                     -=-=-=-=-=-=-=-=-=-=-=-=*/
+.brands {
+  padding: 10px 20px;
+  box-shadow: 0 0 5px #dcdde1;
+  margin: 40px 0;
+}
+.brands ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
