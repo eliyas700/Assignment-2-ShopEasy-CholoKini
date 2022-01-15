@@ -20,6 +20,32 @@ a {
   height: auto;
   margin: 0 auto;
 }
+.uni-button {
+  width: 195px;
+  height: 55px;
+  background: linear-gradient(rgba(255, 71, 87, 1), rgba(255, 107, 129, 1));
+  border: none;
+  font-size: 18px;
+  border-radius: 50px;
+  margin: 50px 0;
+  box-shadow: 10px 10px 20px #57606f;
+  transition: box-shadow 0.5s ease-in;
+}
+.uni-button a {
+  color: rgba(245, 246, 250, 1);
+  font-weight: 600;
+  padding: 5px;
+  transition: color 0.5s ease-in;
+}
+.uni-button a i {
+  padding-left: 5px;
+}
+.uni-button:hover {
+  box-shadow: none;
+}
+.uni-button a:hover {
+  color: #dcdde1;
+}
 /* =-=-=-=-=-=-=-=-=-=-=-
                         Header Section
                     -=-=-=-=-=-=-=-=-=-=-=-=*/
@@ -59,3 +85,45 @@ a {
 .nav-items ul li a:hover {
   color: black;
 }
+/* =-=-=-=-=-=-=-=-=-=-=-
+                        Influencer Section
+                    -=-=-=-=-=-=-=-=-=-=-=-=*/
+.influ-area {
+  margin-top: 40px;
+  padding: 50px 0;
+}
+.influ {
+  display: flex;
+  justify-content: space-between;
+}
+.influ-content {
+  width: 70%;
+  height: auto;
+}
+.influ-content h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+#shopeasy {
+  color: #d95a71;
+}
+.influ-content p {
+  font-size: 16px;
+  color: #3e3e3e;
+}
+
+.influ-img {
+  background: url("../images/Circle\ design.svg") no-repeat;
+  background-position: 15px -49px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.influ-img img {
+  transition: transform 0.5s ease-in-out;
+}
+.influ-img:hover.influ-img img {
+  transform: scale(1.15);
+}
+/* =-=-=-=-=-=-=-=-=-=-=-
+                        Brand Section
+                    -=-=-=-=-=-=-=-=-=-=-=-=*/
