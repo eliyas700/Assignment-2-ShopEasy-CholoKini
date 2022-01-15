@@ -116,27 +116,30 @@ EasyShop Section
 .shop-content h1 {
   font-size: 48px;
   font-weight: 700;
+  margin-bottom: 50px;
+  position: relative;
 }
 @keyframes eliyas {
   0% {
-    color: #d95a71;
+    left: 0;
   }
   25% {
-    color: #ca3f59;
+    left: 10px;
   }
   50% {
-    color: #c22c48;
+    left: 20px;
   }
   75% {
-    color: #a3132d;
+    left: 10px;
   }
   100% {
-    color: #ca3f59;
+    left: 0;
   }
 }
 #shopeasy {
-  box-sizing: border-box;
-  overflow: hidden !important;
+  position: absolute;
+  top: 72%;
+  left: 0;
   display: block;
   color: #d95a71;
   text-shadow: 4px 4px 6px #57606f;
