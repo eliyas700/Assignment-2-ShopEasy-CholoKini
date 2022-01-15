@@ -130,9 +130,90 @@ a {
   padding: 10px 20px;
   box-shadow: 0 0 5px #dcdde1;
   margin: 40px 0;
+  cursor: pointer;
 }
 .brands ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-
+                       Popular Section
+                    -=-=-=-=-=-=-=-=-=-=-=-=*/
+.popular-title {
+  margin-bottom: 20px;
+  margin-top: 60px;
+  font-size: 35px;
+  text-align: center;
+}
+.popular-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.popular {
+  margin-top: 50px;
+  margin-bottom: 70px;
+  width: 26%;
+  height: auto;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #57606f;
+  cursor: pointer;
+  box-sizing: border-box;
+  overflow: hidden;
+  transition: transform 0.5s ease-in-out;
+}
+
+.popular img {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  text-align: left;
+  transition: transform 0.5s ease-in-out;
+}
+.popular:hover.popular > img {
+  transform: scale(1.08);
+}
+.popular:hover {
+  transform: scale(1.13);
+}
+.popular h3 {
+  margin: 10px 0;
+  font-size: 20px;
+}
+.popular p {
+  color: #3e3e3e;
+}
+.item-price {
+  margin: 10px 0;
+  font-weight: 600;
+}
+.rating .fas {
+  color: #f39c12;
+}
+.rating .rating-point {
+  color: #3e3e3e;
+  font-weight: 600;
+}
+.popular-more {
+  display: flex;
+  justify-content: right;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.popular-more a {
+  font-weight: 700;
+  font-size: 20px;
+  color: #d95a71;
+  transition: color 0.5s ease-in-out;
+}
+.popular-more a i {
+  padding-left: 5px;
+}
+.popular-more a:hover {
+  color: rgba(255, 71, 87, 1);
 }
