@@ -1,6 +1,7 @@
 /* =-=-=-=-=-=-=-=-=-=-=-
-                        Common Styles
-                    -=-=-=-=-=-=-=-=-=-=-=-=*/
+      Common Styles
+-=-=-=-=-=-=-=-=-=-=-=-=*/
+
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&display=swap");
 
 html,
@@ -8,6 +9,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Be Vietnam Pro", sans-serif;
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(223, 228, 234, 1));
 }
 li {
   list-style: none;
@@ -46,9 +48,14 @@ a {
 .uni-button a:hover {
   color: #dcdde1;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* =-=-=-=-=-=-=-=-=-=-=-
-                        Header Section
-                    -=-=-=-=-=-=-=-=-=-=-=-=*/
+     Header Section
+-=-=-=-=-=-=-=-=-=-=-=-=*/
 
 .nav-bar {
   display: flex;
@@ -56,6 +63,9 @@ a {
   align-items: center;
   padding: 10px 0;
   margin-top: 40px;
+}
+.responsive-nav {
+  display: none;
 }
 .nav-logo {
   width: 30%;
@@ -84,9 +94,11 @@ a {
 .nav-items ul li a:hover {
   color: black;
 }
+
 /* =-=-=-=-=-=-=-=-=-=-=-
-                        Influencer Section
-                    -=-=-=-=-=-=-=-=-=-=-=-=*/
+Influencer Section
+-=-=-=-=-=-=-=-=-=-=-=-=*/
+
 .influ-area {
   margin-top: 40px;
   padding: 50px 0;
@@ -96,7 +108,7 @@ a {
   justify-content: space-between;
 }
 .influ-content {
-  width: 70%;
+  width: 65%;
   height: auto;
 }
 .influ-content h1 {
@@ -112,6 +124,7 @@ a {
 }
 
 .influ-img {
+  margin-right: 50px;
   background: url("../images/Circle\ design.svg") no-repeat;
   background-position: 15px -49px;
   box-sizing: border-box;
@@ -123,9 +136,11 @@ a {
 .influ-img:hover.influ-img img {
   transform: scale(1.15);
 }
+
 /* =-=-=-=-=-=-=-=-=-=-=-
-                        Brand Section
-                    -=-=-=-=-=-=-=-=-=-=-=-=*/
+    Brand Section
+-=-=-=-=-=-=-=-=-=-=-=-=*/
+
 .brands {
   padding: 10px 20px;
   box-shadow: 0 0 5px #dcdde1;
@@ -134,6 +149,7 @@ a {
 }
 .brands ul {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
 }
@@ -225,6 +241,7 @@ a {
                     -=-=-=-=-=-=-=-=-=-=-=-=*/
 .community {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin: 80px 0;
 }
