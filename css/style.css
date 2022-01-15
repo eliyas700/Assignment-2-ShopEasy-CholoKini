@@ -9,7 +9,13 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Be Vietnam Pro", sans-serif;
-  background: linear-gradient(rgba(255, 255, 255, 1), rgba(223, 228, 234, 1));
+}
+body {
+  background: linear-gradient(
+    45deg,
+    rgba(206, 214, 224, 1),
+    rgba(241, 242, 246, 1)
+  );
 }
 li {
   list-style: none;
@@ -18,7 +24,7 @@ a {
   text-decoration: none;
 }
 .container {
-  width: 90%;
+  width: 85%;
   height: auto;
   margin: 0 auto;
 }
@@ -47,10 +53,6 @@ a {
 }
 .uni-button a:hover {
   color: #dcdde1;
-}
-img {
-  max-width: 100%;
-  height: auto;
 }
 
 /* =-=-=-=-=-=-=-=-=-=-=-
@@ -96,44 +98,46 @@ img {
 }
 
 /* =-=-=-=-=-=-=-=-=-=-=-
-Influencer Section
+EasyShop Section
 -=-=-=-=-=-=-=-=-=-=-=-=*/
 
-.influ-area {
+.shop-area {
   margin-top: 40px;
   padding: 50px 0;
 }
-.influ {
+.shop {
   display: flex;
   justify-content: space-between;
 }
-.influ-content {
-  width: 65%;
+.shop-content {
+  width: 62%;
   height: auto;
 }
-.influ-content h1 {
-  font-size: 45px;
+.shop-content h1 {
+  font-size: 48px;
   font-weight: 700;
 }
 #shopeasy {
   color: #d95a71;
 }
-.influ-content p {
+.shop-content p {
   font-size: 16px;
   color: #3e3e3e;
 }
 
-.influ-img {
+.shop-img {
+  width: 38%;
   margin-right: 50px;
   background: url("../images/Circle\ design.svg") no-repeat;
   background-position: 15px -49px;
   box-sizing: border-box;
   overflow: hidden;
 }
-.influ-img img {
+.shop-img img {
+  width: 100%;
   transition: transform 0.5s ease-in-out;
 }
-.influ-img:hover.influ-img img {
+.shop-img:hover.shop-img img {
   transform: scale(1.15);
 }
 
@@ -158,8 +162,8 @@ Influencer Section
   transition: transform 0.5s ease-in-out;
 }
 /* =-=-=-=-=-=-=-=-=-=-=-
-                       Popular Section
-                    -=-=-=-=-=-=-=-=-=-=-=-=*/
+     Popular Section
+  -=-=-=-=-=-=-=-=-=-=-=-=*/
 .popular-title {
   margin-bottom: 20px;
   margin-top: 60px;
@@ -173,8 +177,8 @@ Influencer Section
   align-items: center;
 }
 .popular {
-  margin-top: 50px;
-  margin-bottom: 70px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   width: 26%;
   height: auto;
   padding: 10px;
@@ -184,6 +188,7 @@ Influencer Section
   box-sizing: border-box;
   overflow: hidden;
   transition: transform 0.5s ease-in-out;
+  background-color: #ffffff;
 }
 
 .popular img {
@@ -237,26 +242,31 @@ Influencer Section
   color: rgba(255, 71, 87, 1);
 }
 /* =-=-=-=-=-=-=-=-=-=-=-
-                       Community Section
-                    -=-=-=-=-=-=-=-=-=-=-=-=*/
+     Community Section
+  -=-=-=-=-=-=-=-=-=-=-=-=*/
 .community {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 80px 0;
 }
+
 .community-img {
-  width: 30%;
+  width: 40%;
 }
+.community-img {
+  max-width: 100%;
+}
+
 .community-content {
-  width: 45%;
-  padding-right: 150px;
+  width: 55%;
 }
 .community-content h2 {
   margin-top: 0;
   font-size: 38px;
 }
 .community-content p {
+  width: 80%;
   font-size: 16px;
   color: #3e3e3e;
 }
@@ -264,8 +274,8 @@ Influencer Section
   margin-top: 0;
 }
 /* =-=-=-=-=-=-=-=-=-=-=-
-                       Footer Section
-                    -=-=-=-=-=-=-=-=-=-=-=-=*/
+        Footer Section
+  -=-=-=-=-=-=-=-=-=-=-=-=*/
 .footer-area {
   background-color: #192a56;
 }
